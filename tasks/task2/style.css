@@ -1,0 +1,54 @@
+table#main, th, td {
+    width: 600px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#trigger:hover ~ #person{
+    background-image: url("images/sad.png");
+}
+#hovered{
+    width: 200px;
+    height: 128px;
+
+}
+
+#face{
+    background: url("images/smile.png") no-repeat center;
+
+}
+
+#hovered:hover + #face{
+    background-image: url("images/neutral.png");
+}
+#hovered:active + #face{
+    background-image: url("images/sad.png");
+}
+
+#person{
+    height: 300px;
+}
+
+#person{
+    height: 300px;
+    background-image: url("images/person.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    visibility: hidden;
+}
+
+#person:hover{
+    visibility: visible;
+}
+
+label:hover{
+    color: red;
+}
+
+
+.menu ul li{
+    visibility: hidden;
+}
+
+.menu ul:hover li{
+    visibility: visible;
+}

@@ -1,0 +1,135 @@
+#mainbody{
+    width: 120px;
+    height: 240px;
+    border-radius: 50%;
+    background: radial-gradient(at 50% 65%, white 10%, #4abbd0 80%);
+    position: absolute;
+    border: 2px solid #4f95b6;
+    left: 100px;
+}
+
+#beak{
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #0665a3;
+    left: 50px;
+    top: 40%;
+    transform: rotate(180deg);
+}
+
+#hair1{
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #0665a3;
+    left: 40%;
+    top: -10px;
+    transform: rotate(135deg);
+}
+
+#hair2{
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #0665a3;
+    left: 30%;
+    top: -15px;
+    transform: rotate(135deg);
+}
+
+#hair3{
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #0665a3;
+    left: 50%;
+    top: -25px;
+    transform: rotate(135deg);
+}
+
+#feather1{
+    width: 40px;
+    height: 80px;
+    border-radius: 50%;
+    background: radial-gradient(at 50% 65%, white 20%, #4abbd0 80%);
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+    border: 2px solid #4f95b6;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+#feather2{
+    width: 40px;
+    height: 80px;
+    border-radius: 50%;
+    background: radial-gradient(at 50% 65%, white 20%, #4abbd0 80%);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 2px solid #4f95b6;
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+
+#eye1{
+    width: 15px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#eye1inside{
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0066a6;
+    position: absolute;
+}
+
+#eye2{
+    width: 15px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#eye2inside{
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0066a6;
+    position: absolute;
+}
+
+#foot1{
+    width: 30px;
+    margin-top: 200px;
+    margin-left: 30px;
+    transform: rotate(100deg);
+    border-bottom:2px solid #1067a0;
+}
+#foot2{
+    width: 30px;
+    margin-top: 0px;
+    margin-left: 60px;
+    transform: rotate(80deg);
+    border-bottom:2px solid #1067a0;
+}

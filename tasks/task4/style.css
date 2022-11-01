@@ -1,0 +1,78 @@
+.mainbody{
+    display: flex;
+    width: 600px;
+    animation: fly 5s;
+}
+.gigabody{
+    display: flex;
+    flex-direction: row;
+}
+.boy{
+    height: 200px;
+    width: 200px;
+    background-image: url("images/boy1.png");
+    background-size: contain;
+
+}
+.text {
+    visibility: hidden;
+}
+
+.brick{
+    height: 200px;
+    width: 200px;
+    background-image: url("images/brick.png");
+    background-size: contain;
+    transform: translate(-100px);
+    /*visibility: hidden; */
+}
+
+.mainbody:hover > .boy{
+    background-image: url("images/boy2.png");
+    transform: translate(50px);
+}
+.mainbody:hover > .text{
+    visibility: visible;
+}
+
+.mainbody:hover > .brick{
+    visibility: visible;
+    margin-left: 10px;
+}
+
+.mainbody:active > .boy{
+    animation: kick 5s;
+    animation-fill-mode: forwards;
+}
+
+.mainbody:active > .brick{
+    animation: fly2 20s;
+}
+
+.mainbody:active{
+
+}
+
+@keyframes fly {
+    100% {justify-content: space-around;
+    }
+}
+@keyframes kick {
+    10% {
+        transform: translate(100px);
+    }
+    40%{
+        background-image: url("images/boy3.png");
+        transform: translate(100px) rotate(45deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+        background-image: url("images/boy3.png");
+
+    }
+}
+@keyframes fly2 {
+    100% {
+        transform: translate(900px) rotate(-180deg);
+    }
+}

@@ -1,0 +1,14 @@
+.bunny{
+    width: 100px;
+    height: 200px;
+    background-image: url("images/bun.PNG");
+    background-repeat: no-repeat;
+    border: solid;
+    position: relative;
+
+}
+
+.move{
+    transform: translateX(600px);
+    transition-duration: 2s;
+}
